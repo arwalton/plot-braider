@@ -1,3 +1,5 @@
+import PlotGrid from "./PlotGrid";
+
 function PlotPage(props) {
     return (
         <div>
@@ -5,6 +7,7 @@ function PlotPage(props) {
             <p>You're working on {props.story}</p>
             <p>It will be a top level component for certain pages</p>
             <p>It will have a PlotGrid component</p>
+            <PlotGrid />
         </div>
     )
 }
