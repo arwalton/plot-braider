@@ -1,9 +1,10 @@
 function PlotEventDetail(props){
   let isReadOnly = true;
   return(
-    <div className="plot-event-detail">
+    <div>
+      <h3>This is a PlotEventDetail</h3>
       <form>
-        <label for="plot-event-text">{ props.title }</label>
+        <label htmlFor="plot-event-text">{ props.title }</label>
         <textarea id="plot-event-text"
                   name="plot-event-text"
                   cols="200"
@@ -15,3 +16,5 @@ function PlotEventDetail(props){
     </div>
   )
 }
+
+export default PlotEventDetail;
