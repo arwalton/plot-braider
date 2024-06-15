@@ -1,0 +1,1 @@
+A small app which helps to organize the plot and the flow of a story, novel, or script.
